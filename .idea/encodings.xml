@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ggkt-mp-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-common/ggkt-service-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-vod/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_mp_demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/common/service_utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/service_activity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/service_live/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/service_order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/service_user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/service_vod/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/service_wechat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service_client/service_activity_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service_client/service_course_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service_client/service_user_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service_client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/service_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/后端代码/ggkt_parent/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

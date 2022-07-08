@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service_course_client" />
+        <module name="service_activity" />
+        <module name="service_user" />
+        <module name="service_live" />
+        <module name="service_activity_client" />
+        <module name="service_utils" />
+        <module name="ggkt-model" />
+        <module name="service_order" />
+        <module name="ggkt-service-vod" />
+        <module name="ggkt-service-utils" />
+        <module name="service_gateway" />
+        <module name="service_user_client" />
+        <module name="service_wechat" />
+        <module name="service_vod" />
+        <module name="ggkt_mp_demo" />
+        <module name="model" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ggkt-mp-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ggkt-common" options="-parameters" />
+      <module name="ggkt-model" options="-parameters" />
+      <module name="ggkt-mp-demo" options="-parameters" />
+      <module name="ggkt-parent" options="-parameters" />
+      <module name="ggkt-service" options="-parameters" />
+      <module name="ggkt-service-utils" options="-parameters" />
+      <module name="ggkt-service-vod" options="-parameters" />
+      <module name="ggkt_mp_demo" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="service_activity" options="-parameters" />
+      <module name="service_activity_client" options="-parameters" />
+      <module name="service_course_client" options="-parameters" />
+      <module name="service_gateway" options="-parameters" />
+      <module name="service_live" options="-parameters" />
+      <module name="service_order" options="-parameters" />
+      <module name="service_user" options="-parameters" />
+      <module name="service_user_client" options="-parameters" />
+      <module name="service_utils" options="-parameters" />
+      <module name="service_vod" options="-parameters" />
+      <module name="service_wechat" options="-parameters" />
+    </option>
+  </component>
+</project>
