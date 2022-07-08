@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input type="checkbox" v-model="ok">同意许可协议
+    <!-- v:if条件指令：还有v-else、v-else-if 切换开销大 -->
+    <h1 v-if="ok">if：Lorem ipsum dolor sit amet.</h1>
+    <h1 v-else>no</h1>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data: {
+            ok: false
+        }
+    })
+</script>
+</body>
+</html>

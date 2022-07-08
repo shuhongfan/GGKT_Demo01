@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <table>
+        <tr v-for="member in memberList">
+            <td>{{member.name}}</td>
+            <td>{{member.age}}</td>
+        </tr>
+    </table>
+</div>
+<script src="vue.min.js"></script>
+<script src="axios.min.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            memberList: []//数组
+        },
+        created() {
+            this.getList()
+        },
+        methods: {
+            getList(id) {
+                //vm = this
+                axios.get('data.json')
+                    .then(response => {  // 请求成功回调
+                        console.log(response)
+                        this.memberList = response.data.data.items
+                    })
+                    .catch(error => {  // 请求失败回调
+                        console.log(error)
+                    })
+            }
+        }
+    })
+</script>
+</body>
+</html>

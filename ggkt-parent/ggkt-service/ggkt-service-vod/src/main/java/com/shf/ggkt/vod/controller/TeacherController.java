@@ -2,7 +2,6 @@ package com.shf.ggkt.vod.controller;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.shf.ggkt.exception.GgktException;
 import com.shf.ggkt.model.vod.Teacher;
@@ -16,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -29,6 +27,7 @@ import java.util.List;
  */
 @Api(tags = "讲师管理接口") // 定义在类上
 @RestController
+@CrossOrigin // 开启跨域
 @RequestMapping("/admin/vod/teacher")
 public class TeacherController {
 
@@ -119,7 +118,7 @@ public class TeacherController {
 
     //    6.  修改-最终实现
     @ApiOperation("修改最终实现")
-    @PostMapping("updateTeacher")
+    @PutMapping("updateTeacher")
     public Result updateTeacher(@RequestBody Teacher teacher) {
         boolean isSuccess = teacherService.updateById(teacher);
         return isSuccess ? Result.ok(null) : Result.fail(null);

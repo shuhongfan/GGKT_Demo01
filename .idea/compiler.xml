@@ -15,7 +15,10 @@
         <module name="service_utils" />
         <module name="ggkt-model" />
         <module name="service_order" />
+        <module name="ggkt-Vue" />
+        <module name="ggkt-ES6" />
         <module name="ggkt-service-vod" />
+        <module name="ggkt-NPM" />
         <module name="ggkt-service-utils" />
         <module name="service_gateway" />
         <module name="service_user_client" />
@@ -23,11 +26,9 @@
         <module name="service_vod" />
         <module name="ggkt_mp_demo" />
         <module name="model" />
+        <module name="ggkt-mp-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ggkt-mp-demo" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

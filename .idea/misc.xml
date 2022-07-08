@@ -13,6 +13,10 @@
         <option value="$PROJECT_DIR$/my_ggkt_parent/pom.xml" />
         <option value="$PROJECT_DIR$/ggkt-parent/pom.xml" />
         <option value="$PROJECT_DIR$/ggkt-parent/ggkt-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ggkt-mp-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ggkt-ES6/pom.xml" />
+        <option value="$PROJECT_DIR$/ggkt-Vue/pom.xml" />
+        <option value="$PROJECT_DIR$/ggkt-NPM/pom.xml" />
       </list>
     </option>
   </component>

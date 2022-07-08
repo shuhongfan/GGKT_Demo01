@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 2、遍历数据列表 -->
+    <table border="1">
+        <!-- <tr v-for="item in userList"></tr> -->
+        <tr v-for="(item, index) in userList">
+            <td>{{index}}</td>
+            <td>{{item.id}}</td>
+            <td>{{item.username}}</td>
+        </tr>
+    </table>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data: {
+            userList: [
+                { id: 1, username: 'helen'},
+                { id: 2, username: 'peter'},
+                { id: 3, username: 'andy'}
+            ]
+        }
+    })
+</script>
+</body>
+</html>

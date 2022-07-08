@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- v-on 指令绑定事件，click指定绑定的事件类型，事件发生时调用vue中methods节点中定义的方法 -->
+    <button v-on:click="search()">查询</button>
+
+    <!-- v-on 指令的简写形式 @ -->
+    <button @click="search()">查询</button>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data: {
+
+        },
+        methods:{
+            search(){
+                console.log('search')
+            }
+        }
+    })
+</script>
+</body>
+</html>

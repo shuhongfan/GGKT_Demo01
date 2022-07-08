@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //2、对象解构
+    let user = {name: 'Helen', age: 18}
+    // 传统
+    let name1 = user.name
+    let age1 = user.age
+    console.log(name1, age1)
+    // ES6
+    let { name, age } =  user//注意：结构的变量必须是user中的属性
+    console.log(name, age)
+</script>
+</body>
+</html>

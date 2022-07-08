@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- v-bind: value只能进行单向的数据渲染 -->
+    <input type="text" v-bind:value="searchMap.keyWord">
+
+    <!-- v-model 可以进行双向的数据绑定  -->
+    <input type="text" v-model="searchMap.keyWord">
+
+    <p>您要查询的是：{{searchMap.keyWord}}</p>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data: {
+            searchMap:{
+                keyWord: '尚硅谷'
+            }
+        }
+    })
+</script>
+</body>
+</html>

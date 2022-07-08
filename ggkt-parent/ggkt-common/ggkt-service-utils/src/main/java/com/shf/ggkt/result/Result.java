@@ -58,7 +58,7 @@ public class Result<T> {
      * @return
      */
     public static<T> Result<T> ok(T data){
-        return build(data,200,"成功");
+        return build(data,20000,"成功");
     }
 
     /**

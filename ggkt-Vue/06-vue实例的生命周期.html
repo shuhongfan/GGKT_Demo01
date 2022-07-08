@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h3 id="h3">{{ message }}</h3>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data: {
+            message: '床前明月光'
+        },
+        created() { // 在渲染之前执行
+            console.log("created....")
+        },
+        mounted() { // 在渲染之后执行
+            console.log("mounted....")
+        },
+        methods: {
+
+        }
+    })
+</script>
+</body>
+</html>
