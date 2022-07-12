@@ -13,7 +13,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>ggkt-service-vod</module>
-        <module>ggke-service-gateway</module>
+        <module>ggkt-service-order</module>
+        <module>ggkt-service-activity</module>
+        <module>ggkt-service-user</module>
+        <module>ggkt-service-client</module>
     </modules>
 
     <properties>

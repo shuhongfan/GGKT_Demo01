@@ -21,7 +21,7 @@ public class CodeGet {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         //gc.setOutputDir(projectPath + "/src/main/java");
-        gc.setOutputDir("C:\\Users\\shf\\Documents\\CODE\\GGKT_Demo01\\ggkt-parent\\ggkt-service\\ggkt-service-vod\\src\\main\\java");
+        gc.setOutputDir("C:\\Users\\shf\\Documents\\CODE\\GGKT_Demo01\\ggkt-parent\\ggkt-service\\ggkt-service-user\\src\\main\\java");
 
         gc.setServiceName("%sService");	//去掉Service接口的首字母I
         gc.setAuthor("shuhongfan");
@@ -30,7 +30,7 @@ public class CodeGet {
 
         // 3、数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://192.168.120.20:3306/glkt_vod");
+        dsc.setUrl("jdbc:mysql://192.168.120.20:3306/glkt_user");
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");
@@ -39,7 +39,7 @@ public class CodeGet {
 
         // 4、包配置  com.shf.ggkt.vod
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName("vod"); //模块名
+        pc.setModuleName("user"); //模块名
         pc.setParent("com.shf.ggkt");
 
         pc.setController("controller");
@@ -51,7 +51,7 @@ public class CodeGet {
         // 5、策略配置
         StrategyConfig strategy = new StrategyConfig();
 
-        strategy.setInclude("video_visitor");
+        strategy.setInclude("user_info");
 
         strategy.setNaming(NamingStrategy.underline_to_camel);//数据库表映射到实体的命名策略
 

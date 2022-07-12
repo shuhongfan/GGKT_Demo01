@@ -8,27 +8,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service_course_client" />
+        <module name="service_live" />
+        <module name="ggke-service-gateway" />
+        <module name="service_utils" />
+        <module name="ggkt-service-user-client" />
+        <module name="service_order" />
+        <module name="ggkt-ES6" />
+        <module name="ggkt-NPM" />
+        <module name="service_user_client" />
+        <module name="service_vod" />
+        <module name="ggkt-service-order" />
+        <module name="ggkt_mp_demo" />
+        <module name="model" />
+        <module name="ggkt-service-activity" />
+        <module name="ggkt-service-user" />
+        <module name="ggkt-mp-demo" />
         <module name="service_activity" />
         <module name="service_user" />
-        <module name="service_live" />
         <module name="service_activity_client" />
-        <module name="service_utils" />
-        <module name="ggke-service-gateway" />
         <module name="ggkt-model" />
-        <module name="service_order" />
         <module name="ggkt-Vue" />
-        <module name="ggkt-ES6" />
         <module name="ggkt-service-vod" />
-        <module name="ggkt-NPM" />
         <module name="ggkt-service-utils" />
         <module name="service_gateway" />
-        <module name="service_user_client" />
         <module name="service_wechat" />
-        <module name="service_vod" />
-        <module name="ggkt_mp_demo" />
         <module name="ggkt-service-gateway" />
-        <module name="model" />
-        <module name="ggkt-mp-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -43,7 +47,11 @@
       <module name="ggkt-mp-demo" options="-parameters" />
       <module name="ggkt-parent" options="-parameters" />
       <module name="ggkt-service" options="-parameters" />
+      <module name="ggkt-service-activity" options="-parameters" />
       <module name="ggkt-service-gateway" options="-parameters" />
+      <module name="ggkt-service-order" options="-parameters" />
+      <module name="ggkt-service-user" options="-parameters" />
+      <module name="ggkt-service-user-client" options="-parameters" />
       <module name="ggkt-service-utils" options="-parameters" />
       <module name="ggkt-service-vod" options="-parameters" />
       <module name="ggkt_mp_demo" options="-parameters" />
