@@ -13,6 +13,7 @@
         <module name="service_live" />
         <module name="service_activity_client" />
         <module name="service_utils" />
+        <module name="ggke-service-gateway" />
         <module name="ggkt-model" />
         <module name="service_order" />
         <module name="ggkt-Vue" />
@@ -25,18 +26,24 @@
         <module name="service_wechat" />
         <module name="service_vod" />
         <module name="ggkt_mp_demo" />
+        <module name="ggkt-service-gateway" />
         <module name="model" />
         <module name="ggkt-mp-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ggke-service-gateway" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ggke-service-gateway" options="-parameters" />
       <module name="ggkt-common" options="-parameters" />
       <module name="ggkt-model" options="-parameters" />
       <module name="ggkt-mp-demo" options="-parameters" />
       <module name="ggkt-parent" options="-parameters" />
       <module name="ggkt-service" options="-parameters" />
+      <module name="ggkt-service-gateway" options="-parameters" />
       <module name="ggkt-service-utils" options="-parameters" />
       <module name="ggkt-service-vod" options="-parameters" />
       <module name="ggkt_mp_demo" options="-parameters" />

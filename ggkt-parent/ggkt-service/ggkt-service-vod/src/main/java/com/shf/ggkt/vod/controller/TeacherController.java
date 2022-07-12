@@ -3,7 +3,6 @@ package com.shf.ggkt.vod.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.shf.ggkt.exception.GgktException;
 import com.shf.ggkt.model.vod.Teacher;
 import com.shf.ggkt.result.Result;
 import com.shf.ggkt.vo.vod.TeacherQueryVo;
@@ -27,7 +26,7 @@ import java.util.List;
  */
 @Api(tags = "讲师管理接口") // 定义在类上
 @RestController
-@CrossOrigin // 开启跨域
+//@CrossOrigin // 开启跨域
 @RequestMapping("/admin/vod/teacher")
 public class TeacherController {
 
@@ -39,11 +38,11 @@ public class TeacherController {
     @ApiOperation("查询所有讲师")  // 定义在方法上
     @GetMapping("findAll")
     public Result<List<Teacher>> findAllTeacher() {
-        try { // 业务中需要位置抛出自定义异常
-            int a = 10/0;
-        }catch(Exception e) {
-            throw new GgktException(20001,"出现自定义异常");
-        }
+//        try { // 业务中需要位置抛出自定义异常
+//            int a = 10/0;
+//        }catch(Exception e) {
+//            throw new GgktException(20001,"出现自定义异常");
+//        }
         List<Teacher> list = teacherService.list();
         return !StringUtils.isEmpty(list) ? Result.ok(list) : Result.fail(null);
     }

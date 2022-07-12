@@ -80,5 +80,16 @@ export default {
       method: 'delete',
       data: idList
     })
+  },
+
+  /**
+   * 查询所有讲师
+   * @returns {*}
+   */
+  list() {
+    return request({
+      url: `${API_NAME}/findAll`,
+      method: 'get'
+    })
   }
 }

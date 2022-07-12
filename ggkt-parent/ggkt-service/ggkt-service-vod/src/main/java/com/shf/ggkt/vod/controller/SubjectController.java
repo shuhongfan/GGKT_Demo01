@@ -23,7 +23,7 @@ import java.util.List;
  */
 @Api(tags = "课程分类管理")
 @RestController
-@CrossOrigin
+//@CrossOrigin
 @RequestMapping("/admin/vod/subject")
 public class SubjectController {
     @Autowired

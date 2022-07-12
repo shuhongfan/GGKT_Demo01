@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 
-@CrossOrigin // 开启跨域
+//@CrossOrigin // 开启跨域
 @RestController
 @RequestMapping("/admin/vod/user")
 public class UserLoginController {

@@ -7,6 +7,7 @@
         <module>ggkt-model</module>
         <module>ggkt-service</module>
         <module>ggkt-common</module>
+        <module>ggkt-service-gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
