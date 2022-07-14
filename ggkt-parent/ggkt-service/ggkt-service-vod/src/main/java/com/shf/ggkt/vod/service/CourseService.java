@@ -8,6 +8,7 @@ import com.shf.ggkt.vo.vod.CourseFormVo;
 import com.shf.ggkt.vo.vod.CoursePublishVo;
 import com.shf.ggkt.vo.vod.CourseQueryVo;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -33,4 +34,10 @@ public interface CourseService extends IService<Course> {
     void publishCourse(Long id);
 
     void removeCourseId(Long id);
+
+    Map<String,Object> findPage(Page<Course> pageParam, CourseQueryVo courseQueryVo);
+
+    Map<String, Object> getInfoById(Long courseId);
+
+    List<Course> findList();
 }

@@ -17,6 +17,8 @@
         <module>ggkt-service-activity</module>
         <module>ggkt-service-user</module>
         <module>ggkt-service-client</module>
+        <module>ggkt-service-wechat</module>
+        <module>ggkt-service-live</module>
     </modules>
 
     <properties>

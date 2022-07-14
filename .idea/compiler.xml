@@ -32,7 +32,11 @@
         <module name="ggkt-service-utils" />
         <module name="service_gateway" />
         <module name="service_wechat" />
+        <module name="ggkt-service-wechat" />
         <module name="ggkt-service-gateway" />
+        <module name="ggkt-service-activity-client" />
+        <module name="ggkt-service-course-client" />
+        <module name="ggkt-service-live" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,12 +52,16 @@
       <module name="ggkt-parent" options="-parameters" />
       <module name="ggkt-service" options="-parameters" />
       <module name="ggkt-service-activity" options="-parameters" />
+      <module name="ggkt-service-activity-client" options="-parameters" />
+      <module name="ggkt-service-course-client" options="-parameters" />
       <module name="ggkt-service-gateway" options="-parameters" />
+      <module name="ggkt-service-live" options="-parameters" />
       <module name="ggkt-service-order" options="-parameters" />
       <module name="ggkt-service-user" options="-parameters" />
       <module name="ggkt-service-user-client" options="-parameters" />
       <module name="ggkt-service-utils" options="-parameters" />
       <module name="ggkt-service-vod" options="-parameters" />
+      <module name="ggkt-service-wechat" options="-parameters" />
       <module name="ggkt_mp_demo" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="service_activity" options="-parameters" />

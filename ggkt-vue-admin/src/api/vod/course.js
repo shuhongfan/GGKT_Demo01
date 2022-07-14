@@ -53,5 +53,11 @@ export default {
       url: `${API_NAME}/remove/${id}`,
       method: 'delete'
     })
+  },
+  findAll() {
+    return request({
+      url: `${API_NAME}/findAll`,
+      method: 'get'
+    })
   }
 }

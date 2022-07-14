@@ -131,5 +131,16 @@ public class TeacherController {
         return isSuccess ? Result.ok(null) : Result.fail(null);
     }
 
+    /**
+     * 根据id查询 远程调用
+     * @param id
+     * @return
+     */
+    @ApiOperation("根据id查询")
+    @GetMapping("inner/getTeacher/{id}")
+    public Teacher getTeacherInfo(@PathVariable Long id) {
+        Teacher teacher = teacherService.getById(id);
+        return teacher;
+    }
 }
 

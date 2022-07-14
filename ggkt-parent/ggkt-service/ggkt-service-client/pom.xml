@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>ggkt-service-user-client</module>
+        <module>ggkt-service-course-client</module>
+        <module>ggkt-service-activity-client</module>
     </modules>
 
     <properties>

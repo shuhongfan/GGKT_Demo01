@@ -228,6 +228,60 @@ export const constantRoutes = [
   },
 
   {
+    path: '/wechat',
+    component: Layout,
+    redirect: '/wechat/menu/list',
+    name: 'Wechat',
+    meta: {
+      title: '公众号菜单管理',
+      icon: 'el-icon-refrigerator'
+    },
+    alwaysShow: true,
+    children: [
+      {
+        path: 'menu/list',
+        name: 'Menu',
+        component: () => import('@/views/wechat/menu/List'),
+        meta: { title: '菜单列表' }
+      }
+    ]
+  },
+
+  {
+    path: '/live',
+    component: Layout,
+    redirect: '/live/liveCourse/list',
+    name: 'Live',
+    meta: {
+      title: '直播管理',
+      icon: 'el-icon-bangzhu'
+    },
+    alwaysShow: true,
+    children: [
+      {
+        path: 'liveCourse/list',
+        name: 'liveCourseList',
+        component: () => import('@/views/live/liveCourse/List'),
+        meta: { title: '直播列表' }
+      },
+      {
+        path: 'liveCourse/config/:id',
+        name: 'liveCourseConfig',
+        component: () => import('@/views/live/liveCourse/Config'),
+        meta: { title: '直播配置' },
+        hidden: true
+      },
+      {
+        path: 'liveVisitor/list/:id',
+        name: 'liveVisitor',
+        component: () => import('@/views/live/liveVisitor/List'),
+        meta: { title: '观看记录' },
+        hidden: true
+      }
+    ]
+  },
+
+  {
     path: '/form',
     component: Layout,
     children: [

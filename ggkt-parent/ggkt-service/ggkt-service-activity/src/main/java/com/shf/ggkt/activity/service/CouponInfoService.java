@@ -18,4 +18,6 @@ import com.shf.ggkt.vo.activity.CouponUseQueryVo;
 public interface CouponInfoService extends IService<CouponInfo> {
 
     Page<CouponUse> selectCouponUsePage(Page<CouponUse> pageParam, CouponUseQueryVo couponUseQueryVo);
+
+    void updateCouponInfoUseStatus(Long couponUseId, Long orderId);
 }

@@ -10,12 +10,16 @@
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggke-service-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-activity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-client/ggkt-service-activity-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-client/ggkt-service-course-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-client/ggkt-service-user-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-live/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-user/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-vod/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/ggkt-service-wechat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/ggkt-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ggkt-parent/src/main/java" charset="UTF-8" />

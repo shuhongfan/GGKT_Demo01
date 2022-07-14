@@ -12,6 +12,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -118,6 +119,16 @@ public class CourseController {
     public Result remove(@PathVariable Long id) {
         courseService.removeCourseId(id);
         return Result.ok();
+    }
+
+    /**
+     * 查询所有课程
+     * @return
+     */
+    @GetMapping("findAll")
+    public Result findAll() {
+        List<Course> list = courseService.findList();
+        return Result.ok(list);
     }
 }
 

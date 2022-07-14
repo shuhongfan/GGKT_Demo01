@@ -4,6 +4,7 @@ package com.shf.ggkt.vod.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.shf.ggkt.model.vod.Course;
 import com.shf.ggkt.vo.vod.CoursePublishVo;
+import com.shf.ggkt.vo.vod.CourseVo;
 
 /**
  * <p>
@@ -22,4 +23,10 @@ public interface CourseMapper extends BaseMapper<Course> {
      */
     CoursePublishVo selectCoursePublishVoById(Long id);
 
+    /**
+     * 根据课程id查询课程详情数据
+     * @param courseId
+     * @return
+     */
+    CourseVo selectCourseVoById(Long courseId);
 }
